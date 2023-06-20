@@ -454,6 +454,27 @@
 			}
 		},
 		{
+			"coverage":"U+1-E,U+D-21,U+3F,U+A0,U+A0,U+1000-10A0,U+200B-200E,U+2018-201A,U+201C-201E,U+2026,U+25CC,U+A92E,U+A9E0-A9FF,U+AA60-AA80,U+FE00,U+FEFF",
+			"ext":[
+				"ttf",
+				"ttf.lzma",
+				"ttf.brotli"
+			],
+			"family":"Noto Sans Myanmar",
+			"id":"notosansmyanmar1",
+			"variants":{
+				"100":"NotoSansMyanmar-Thin",
+				"200":"NotoSansMyanmar-ExtraLight",
+				"300":"NotoSansMyanmar-Light",
+				"500":"NotoSansMyanmar-Regular",
+				"550":"NotoSansMyanmar-Medium",
+				"600":"NotoSansMyanmar-SemiBold",
+				"700":"NotoSansMyanmar-Bold",
+				"800":"NotoSansMyanmar-ExtraBold",
+				"900":"NotoSansMyanmar-Black"
+			}
+		},
+		{
 			"coverage":"U+20,U+2D,U+A0,U+2BC,U+2D7,U+303,U+331,U+E01-E3B,U+E3F-E5C,U+200B-200E,U+2010,U+25CC",
 			"ext":[
 				"ttf",
@@ -479,6 +500,27 @@
 			"variants":{
 				"500":"NotoSansThai",
 				"700":"NotoSansThaiBold"
+			}
+		},
+		{
+			"coverage":"U+1-E,U+D-7F,U+A0,U+A0-A4,U+A5,U+A7-AC,U+AD-B1,U+B4,U+B6-B9,U+BA-BC,U+BF-108,U+10A-114,U+116-11C,U+11E-124,U+126-128,U+12A-12C,U+12E-134,U+136-138,U+139-13F,U+141-149,U+14A-14E,U+150-15C,U+15E-162,U+164-166,U+16A-17F,U+218-21C,U+237,U+2BC,U+2C6-2C8,U+2C9,U+2D8-2DE,U+300-305,U+306-309,U+30A-30D,U+312,U+326-329,U+951-953,U+964-966,U+A01-A04,U+A05-A0B,U+A0F-A11,U+A13-A29,U+A2A-A31,U+A32-A34,U+A35-A37,U+A38-A3A,U+A3C,U+A3E-A43,U+A47-A49,U+A4B-A4E,U+A51,U+A59-A5D,U+A5E,U+A66-A77,U+1E80-1E86,U+1E9E,U+1EF2-1EF4,U+200B-200E,U+2010,U+2013-2015,U+2018-201B,U+201C-201F,U+2022,U+2026,U+2039-203B,U+20AC,U+20B9,U+2122,U+2212,U+25CC,U+262C,U+A830-A83A,U+FEFF",
+			"ext":[
+				"ttf",
+				"ttf.lzma",
+				"ttf.brotli"
+			],
+			"family":"Noto Serif Gurmukhi",
+			"id":"notoserifgurmukhi1",
+			"variants":{
+				"100":"NotoSerifGurmukhi-Thin",
+				"200":"NotoSerifGurmukhi-ExtraLight",
+				"300":"NotoSerifGurmukhi-Light",
+				"500":"NotoSerifGurmukhi-Regular",
+				"550":"NotoSerifGurmukhi-Medium",
+				"600":"NotoSerifGurmukhi-SemiBold",
+				"700":"NotoSerifGurmukhi-Bold",
+				"800":"NotoSerifGurmukhi-ExtraBold",
+				"900":"NotoSerifGurmukhi-Black"
 			}
 		},
 		{
@@ -699,277 +741,285 @@
 			}
 		}
 	],
-	"matchPatterns": [
+	"matchPatterns":[
 		{
-			"match": "Wingdings",
-			"target": "openwingdings1",
-			"type": "String"
+			"match":"Wingdings",
+			"target":"openwingdings1",
+			"type":"String"
 		},
 		{
-			"match": "Wingdings",
-			"target": "openwingdings2",
-			"type": "String"
+			"match":"Wingdings",
+			"target":"openwingdings2",
+			"type":"String"
 		},
 		{
-			"match": "Nasalization*",
-			"target": "nasalization1",
-			"type": "Wildcard"
+			"match":"Nasalization*",
+			"target":"nasalization1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Open*Sans*",
-			"target": "opensans1",
-			"type": "Wildcard"
+			"match":"Open*Sans*",
+			"target":"opensans1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Roboto*Mono*",
-			"target": "robotomono1",
-			"type": "Wildcard"
+			"match":"Roboto*Mono*",
+			"target":"robotomono1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Roboto*",
-			"target": "roboto1",
-			"type": "Wildcard"
+			"match":"Roboto*",
+			"target":"roboto1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Tinos*",
-			"target": "tinos1",
-			"type": "Wildcard"
+			"match":"Tinos*",
+			"target":"tinos1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Caladea*",
-			"target": "caladea1",
-			"type": "Wildcard"
+			"match":"Caladea*",
+			"target":"caladea1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Cambria",
-			"target": "caladea1",
-			"type": "String"
+			"match":"Cambria",
+			"target":"caladea1",
+			"type":"String"
 		},
 		{
-			"match": "Carlito*",
-			"target": "carlito1",
-			"type": "Wildcard"
+			"match":"Carlito*",
+			"target":"carlito1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Calibri",
-			"target": "carlito1",
-			"type": "String"
+			"match":"Calibri",
+			"target":"carlito1",
+			"type":"String"
 		},
 		{
-			"match": "Cousine*",
-			"target": "cousine1",
-			"type": "Wildcard"
+			"match":"Cousine*",
+			"target":"cousine1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Cousine*",
-			"target": "cousine2",
-			"type": "Wildcard"
+			"match":"Cousine*",
+			"target":"cousine2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Courier*New*",
-			"target": "cousine1",
-			"type": "Wildcard"
+			"match":"Courier*New*",
+			"target":"cousine1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Liberation*Serif*",
-			"target": "liberationserif1",
-			"type": "Wildcard"
+			"match":"Liberation*Serif*",
+			"target":"liberationserif1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Times*New*Roman*",
-			"target": "liberationserif1",
-			"type": "Wildcard"
+			"match":"Times*New*Roman*",
+			"target":"liberationserif1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Serif",
-			"target": "liberationserif1",
-			"type": "String"
+			"match":"Serif",
+			"target":"liberationserif1",
+			"type":"String"
 		},
 		{
-			"match": "Arial*Black",
-			"target": "arivo1",
-			"type": "Wildcard"
+			"match":"Arial*Black",
+			"target":"arivo1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Arial",
-			"target": "arimo1",
-			"type": "Wildcard"
+			"match":"Arial",
+			"target":"arimo1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Arimo*",
-			"target": "arimo1",
-			"type": "Wildcard"
+			"match":"Arimo*",
+			"target":"arimo1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Sans*Serif",
-			"target": "arimo1",
-			"type": "Wildcard"
+			"match":"Sans*Serif",
+			"target":"arimo1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*Arabic*",
-			"target": "notosansarabic1",
-			"type": "Wildcard"
+			"match":"Noto*Sans*Arabic*",
+			"target":"notosansarabic1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "M+1p*",
-			"target": "m+1p1",
-			"type": "Wildcard"
+			"match":"M+1p*",
+			"target":"m+1p1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*",
-			"target": "notosans1",
-			"type": "Wildcard"
+			"match":"Noto*Sans*",
+			"target":"notosans1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*",
-			"target": "notosans2",
-			"type": "Wildcard"
+			"match":"Noto*Sans*",
+			"target":"notosans2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*",
-			"target": "notosans3",
-			"type": "Wildcard"
+			"match":"Noto*Sans*",
+			"target":"notosans3",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*",
-			"target": "notosansmono3",
-			"type": "Wildcard"
+			"match":"Noto*Sans*",
+			"target":"notosansmono3",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*Thai*",
-			"target": "notosansthai1",
-			"type": "Wildcard"
+			"match":"Noto*Sans*Thai*",
+			"target":"notosansthai1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Arimo*",
-			"target": "arimo2",
-			"type": "Wildcard"
+			"match":"Arimo*",
+			"target":"arimo2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Arivo*Black*",
-			"target": "arivoblack1",
-			"type": "Wildcard"
+			"match":"Arivo*Black*",
+			"target":"arivoblack1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Caladea*",
-			"target": "caladea2",
-			"type": "Wildcard"
+			"match":"Caladea*",
+			"target":"caladea2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Carlito*",
-			"target": "carlito2",
-			"type": "Wildcard"
+			"match":"Carlito*",
+			"target":"carlito2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Cousine*",
-			"target": "cousine3",
-			"type": "Wildcard"
+			"match":"Cousine*",
+			"target":"cousine3",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Liberation*Serif*",
-			"target": "liberationserif2",
-			"type": "Wildcard"
+			"match":"Liberation*Serif*",
+			"target":"liberationserif2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "M+1p*",
-			"target": "m+1p2",
-			"type": "Wildcard"
+			"match":"M+1p*",
+			"target":"m+1p2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Nasalization*",
-			"target": "nasalization2",
-			"type": "Wildcard"
+			"match":"Nasalization*",
+			"target":"nasalization2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*Arabic*",
-			"target": "notosansarabic2",
-			"type": "Wildcard"
+			"match":"Noto*Sans*Arabic*",
+			"target":"notosansarabic2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*",
-			"target": "notosans4",
-			"type": "Wildcard"
+			"match":"Noto*Sans*",
+			"target":"notosans4",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*",
-			"target": "notosans5",
-			"type": "Wildcard"
+			"match":"Noto*Sans*",
+			"target":"notosans5",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*",
-			"target": "notosans6",
-			"type": "Wildcard"
+			"match":"Noto*Sans*",
+			"target":"notosans6",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Noto*Sans*Thai*",
-			"target": "notosansthai2",
-			"type": "Wildcard"
+			"match":"Noto*Sans*Thai*",
+			"target":"notosansthai2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Open*Sans*",
-			"target": "opensans2",
-			"type": "Wildcard"
+			"match":"Open*Sans*",
+			"target":"opensans2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Opensymbol*",
-			"target": "opensymbol1",
-			"type": "Wildcard"
+			"match":"Opensymbol*",
+			"target":"opensymbol1",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Roboto*",
-			"target": "roboto2",
-			"type": "Wildcard"
+			"match":"Roboto*",
+			"target":"roboto2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Roboto*Mono*",
-			"target": "robotomono2",
-			"type": "Wildcard"
+			"match":"Roboto*Mono*",
+			"target":"robotomono2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Symbola*",
-			"target": "symbola2",
-			"type": "Wildcard"
+			"match":"Symbola*",
+			"target":"symbola2",
+			"type":"Wildcard"
 		},
 		{
-			"match": "Tinos*",
-			"target": "tinos2",
-			"type": "Wildcard"
+			"match":"Tinos*",
+			"target":"tinos2",
+			"type":"Wildcard"
 		},
 		{
-			"target": "hindsiliguri1",
-			"type": "All"
+			"target":"arimo1",
+			"type":"All"
 		},
 		{
-			"target": "arimo1",
-			"type": "All"
+			"target":"opensans1",
+			"type":"All"
 		},
 		{
-			"target": "opensans1",
-			"type": "All"
+			"target":"roboto1",
+			"type":"All"
 		},
 		{
-			"target": "roboto1",
-			"type": "All"
+			"target":"notosansarabic1",
+			"type":"All"
 		},
 		{
-			"target": "notosansarabic1",
-			"type": "All"
+			"target":"notosansthai1",
+			"type":"All"
 		},
 		{
-			"target": "notosansthai1",
-			"type": "All"
+			"target":"robotomono1",
+			"type":"All"
 		},
 		{
-			"target": "robotomono1",
-			"type": "All"
+			"target":"opensymbol1",
+			"type":"All"
 		},
 		{
-			"target": "opensymbol1",
-			"type": "All"
+			"target":"symbola1",
+			"type":"All"
 		},
 		{
-			"target": "symbola1",
-			"type": "All"
+			"target":"notosansmyanmar1",
+			"type":"All"
+		},
+		{
+			"target":"notoserifgurmukhi1",
+			"type":"All"
+		},
+		{
+			"target":"hindsiliguri1",
+			"type":"All"
 		}
 	],
 	"versionMajor":2,
