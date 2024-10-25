@@ -899,11 +899,6 @@
 			"type": "Wildcard"
 		},
 		{
-			"match": "Noto*Sans*Arabic*",
-			"target": "notosansarabic1",
-			"type": "Wildcard"
-		},
-		{
 			"match": "M+1p*",
 			"target": "m+1p1",
 			"type": "Wildcard"
