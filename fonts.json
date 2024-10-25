@@ -974,11 +974,6 @@
 			"type": "Wildcard"
 		},
 		{
-			"match": "Noto*Sans*Arabic*",
-			"target": "notosansarabic2",
-			"type": "Wildcard"
-		},
-		{
 			"match": "Noto*Sans*Armenian*",
 			"target": "notosansarmenian1",
 			"type": "Wildcard"
@@ -1062,10 +1057,6 @@
 		},
 		{
 			"target": "rubik1",
-			"type": "All"
-		},
-		{
-			"target": "notosansarabic1",
 			"type": "All"
 		},
 		{
